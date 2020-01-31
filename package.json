@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "description": "JS Channel library to interface with Urbit's web server (Eyre)",
   "main": "out/channel.js",
+  "types": "out/channel.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",

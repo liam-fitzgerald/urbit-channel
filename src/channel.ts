@@ -37,12 +37,6 @@ export function request(
   });
 }
 
-export function wait(time: number) {
-  return new Promise((resolve) =>
-    setTimeout(resolve, time)
-  )
-}
-
 export default class Channel {
   uid: string;
   requestId: number;
