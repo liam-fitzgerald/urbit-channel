@@ -1,0 +1,26 @@
+{
+  "name": "urbit-channel",
+  "version": "0.1.0",
+  "description": "JS Channel library to interface with Urbit's web server (Eyre)",
+  "main": "out/channel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liam-fitzgerald/urbit-channel.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liam-fitzgerald/urbit-channel/issues"
+  },
+  "homepage": "https://github.com/liam-fitzgerald/urbit-channel#readme",
+  "dependencies": {
+    "eventsource": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/eventsource": "^1.1.2",
+    "@types/node": "^13.5.3"
+  }
+}
